@@ -1,0 +1,100 @@
+2025-03-27 12:36:45,000 INFO django.request: GET /api/v1/checkout/ 201 OK [192.168.1.62]
+2025-03-27 12:35:19,000 WARNING django.security: SuspiciousOperation: Invalid HTTP_HOST header
+2025-03-27 12:10:18,000 DEBUG django.db.backends: (0.43) SELECT * FROM 'cart' WHERE id = 11;
+2025-03-27 12:26:18,000 WARNING django.security: ConnectionError: Failed to connect to payment gateway
+2025-03-27 12:20:50,000 DEBUG django.db.backends: (0.14) SELECT * FROM 'reviews' WHERE id = 76;
+2025-03-27 12:33:05,000 ERROR django.request: Internal Server Error: /api/v1/users/ [192.168.1.39] - PermissionDenied: User does not have permission
+2025-03-27 12:29:35,000 INFO django.request: GET /api/v1/orders/ 204 OK [192.168.1.67]
+2025-03-27 12:06:15,000 WARNING django.security: IntegrityError: duplicate key value violates unique constraint
+2025-03-27 12:10:49,000 CRITICAL django.core.management: OSError: No space left on device
+2025-03-27 12:42:07,000 INFO django.request: GET /api/v1/users/ 201 OK [192.168.1.22]
+2025-03-27 12:44:47,000 INFO django.request: GET /api/v1/payments/ 204 OK [192.168.1.57]
+2025-03-27 12:05:14,000 INFO django.request: GET /api/v1/auth/login/ 200 OK [192.168.1.28]
+2025-03-27 12:18:30,000 CRITICAL django.core.management: ValueError: Invalid input data
+2025-03-27 12:13:15,000 INFO django.request: GET /api/v1/products/ 201 OK [192.168.1.72]
+2025-03-27 12:44:40,000 INFO django.request: GET /api/v1/auth/login/ 200 OK [192.168.1.47]
+2025-03-27 12:41:43,000 DEBUG django.db.backends: (0.46) SELECT * FROM 'payments' WHERE id = 92;
+2025-03-27 12:22:35,000 ERROR django.request: Internal Server Error: /api/v1/users/ [192.168.1.90] - DatabaseError: Deadlock detected
+2025-03-27 12:33:37,000 INFO django.request: GET /api/v1/reviews/ 204 OK [192.168.1.15]
+2025-03-27 12:08:12,000 INFO django.request: GET /api/v1/reviews/ 200 OK [192.168.1.57]
+2025-03-27 12:36:16,000 INFO django.request: GET /api/v1/products/ 204 OK [192.168.1.29]
+2025-03-27 12:14:56,000 DEBUG django.db.backends: (0.17) SELECT * FROM 'support' WHERE id = 39;
+2025-03-27 12:07:35,000 INFO django.request: GET /api/v1/support/ 200 OK [192.168.1.23]
+2025-03-27 12:22:08,000 CRITICAL django.core.management: OSError: No space left on device
+2025-03-27 12:01:37,000 INFO django.request: GET /admin/dashboard/ 201 OK [192.168.1.12]
+2025-03-27 12:33:11,000 INFO django.request: GET /api/v1/shipping/ 200 OK [192.168.1.86]
+2025-03-27 12:33:27,000 ERROR django.request: Internal Server Error: /admin/login/ [192.168.1.74] - SuspiciousOperation: Invalid HTTP_HOST header
+2025-03-27 12:42:08,000 WARNING django.security: DatabaseError: Deadlock detected
+2025-03-27 12:47:58,000 INFO django.request: GET /api/v1/orders/ 200 OK [192.168.1.87]
+2025-03-27 12:22:29,000 INFO django.request: GET /api/v1/support/ 204 OK [192.168.1.63]
+2025-03-27 12:40:13,000 ERROR django.request: Internal Server Error: /api/v1/products/ [192.168.1.39] - ConnectionError: Failed to connect to payment gateway
+2025-03-27 12:10:57,000 INFO django.request: GET /admin/login/ 200 OK [192.168.1.33]
+2025-03-27 12:07:30,000 CRITICAL django.core.management: DatabaseError: Deadlock detected
+2025-03-27 12:31:32,000 INFO django.request: GET /api/v1/products/ 200 OK [192.168.1.52]
+2025-03-27 12:14:13,000 ERROR django.request: Internal Server Error: /api/v1/checkout/ [192.168.1.20] - PermissionDenied: User does not have permission
+2025-03-27 12:08:30,000 DEBUG django.db.backends: (0.22) SELECT * FROM 'reviews' WHERE id = 35;
+2025-03-27 12:02:35,000 INFO django.request: GET /api/v1/cart/ 200 OK [192.168.1.77]
+2025-03-27 12:49:04,000 WARNING django.security: DatabaseError: Deadlock detected
+2025-03-27 12:04:36,000 INFO django.request: GET /api/v1/shipping/ 200 OK [192.168.1.51]
+2025-03-27 12:13:50,000 INFO django.request: GET /admin/login/ 201 OK [192.168.1.51]
+2025-03-27 12:42:28,000 ERROR django.request: Internal Server Error: /admin/dashboard/ [192.168.1.66] - OSError: No space left on device
+2025-03-27 12:11:18,000 INFO django.request: GET /api/v1/reviews/ 200 OK [192.168.1.96]
+2025-03-27 12:05:34,000 INFO django.request: GET /api/v1/reviews/ 204 OK [192.168.1.68]
+2025-03-27 12:16:06,000 DEBUG django.db.backends: (0.11) SELECT * FROM 'shipping' WHERE id = 17;
+2025-03-27 12:32:44,000 DEBUG django.db.backends: (0.40) SELECT * FROM 'users' WHERE id = 85;
+2025-03-27 12:42:24,000 DEBUG django.db.backends: (0.39) SELECT * FROM 'orders' WHERE id = 84;
+2025-03-27 12:11:07,000 WARNING django.security: SuspiciousOperation: Invalid HTTP_HOST header
+2025-03-27 12:39:41,000 WARNING django.security: ConnectionError: Failed to connect to payment gateway
+2025-03-27 12:44:55,000 WARNING django.security: IntegrityError: duplicate key value violates unique constraint
+2025-03-27 12:41:04,000 INFO django.request: GET /api/v1/support/ 201 OK [192.168.1.53]
+2025-03-27 12:06:04,000 INFO django.request: GET /api/v1/users/ 204 OK [192.168.1.18]
+2025-03-27 12:38:38,000 INFO django.request: GET /api/v1/payments/ 204 OK [192.168.1.56]
+2025-03-27 12:42:46,000 WARNING django.security: IntegrityError: duplicate key value violates unique constraint
+2025-03-27 12:37:23,000 ERROR django.request: Internal Server Error: /api/v1/products/ [192.168.1.74] - ValueError: Invalid input data
+2025-03-27 12:14:56,000 INFO django.request: GET /api/v1/payments/ 204 OK [192.168.1.66]
+2025-03-27 12:02:10,000 INFO django.request: GET /api/v1/support/ 200 OK [192.168.1.27]
+2025-03-27 12:41:31,000 INFO django.request: GET /api/v1/orders/ 204 OK [192.168.1.96]
+2025-03-27 12:47:56,000 WARNING django.security: IntegrityError: duplicate key value violates unique constraint
+2025-03-27 12:39:42,000 INFO django.request: GET /api/v1/checkout/ 200 OK [192.168.1.60]
+2025-03-27 12:25:34,000 INFO django.request: GET /api/v1/support/ 201 OK [192.168.1.94]
+2025-03-27 12:24:17,000 INFO django.request: GET /api/v1/shipping/ 204 OK [192.168.1.94]
+2025-03-27 12:35:09,000 INFO django.request: GET /api/v1/reviews/ 200 OK [192.168.1.54]
+2025-03-27 12:06:29,000 DEBUG django.db.backends: (0.31) SELECT * FROM 'products' WHERE id = 18;
+2025-03-27 12:13:57,000 ERROR django.request: Internal Server Error: /api/v1/orders/ [192.168.1.63] - IntegrityError: duplicate key value violates unique constraint
+2025-03-27 12:47:26,000 INFO django.request: GET /api/v1/orders/ 200 OK [192.168.1.36]
+2025-03-27 12:45:46,000 WARNING django.security: OSError: No space left on device
+2025-03-27 12:18:02,000 INFO django.request: GET /admin/login/ 201 OK [192.168.1.79]
+2025-03-27 12:41:35,000 INFO django.request: GET /api/v1/reviews/ 204 OK [192.168.1.96]
+2025-03-27 12:17:53,000 INFO django.request: GET /api/v1/auth/login/ 204 OK [192.168.1.61]
+2025-03-27 12:21:40,000 ERROR django.request: Internal Server Error: /api/v1/payments/ [192.168.1.25] - SuspiciousOperation: Invalid HTTP_HOST header
+2025-03-27 12:05:41,000 INFO django.request: GET /api/v1/checkout/ 204 OK [192.168.1.25]
+2025-03-27 12:09:25,000 WARNING django.security: SuspiciousOperation: Invalid HTTP_HOST header
+2025-03-27 12:14:22,000 WARNING django.security: PermissionDenied: User does not have permission
+2025-03-27 12:48:50,000 INFO django.request: GET /api/v1/support/ 204 OK [192.168.1.40]
+2025-03-27 12:49:19,000 WARNING django.security: ValueError: Invalid input data
+2025-03-27 12:26:19,000 INFO django.request: GET /api/v1/reviews/ 201 OK [192.168.1.78]
+2025-03-27 12:27:18,000 WARNING django.security: DatabaseError: Deadlock detected
+2025-03-27 12:27:18,000 DEBUG django.db.backends: (0.30) SELECT * FROM 'cart' WHERE id = 51;
+2025-03-27 12:42:16,000 ERROR django.request: Internal Server Error: /api/v1/shipping/ [192.168.1.20] - SuspiciousOperation: Invalid HTTP_HOST header
+2025-03-27 12:43:19,000 INFO django.request: GET /api/v1/checkout/ 201 OK [192.168.1.97]
+2025-03-27 12:47:00,000 ERROR django.request: Internal Server Error: /api/v1/reviews/ [192.168.1.47] - ValueError: Invalid input data
+2025-03-27 12:24:19,000 INFO django.request: GET /api/v1/products/ 204 OK [192.168.1.21]
+2025-03-27 12:41:35,000 INFO django.request: GET /api/v1/reviews/ 204 OK [192.168.1.73]
+2025-03-27 12:22:12,000 INFO django.request: GET /api/v1/checkout/ 200 OK [192.168.1.72]
+2025-03-27 12:27:26,000 CRITICAL django.core.management: SuspiciousOperation: Invalid HTTP_HOST header
+2025-03-27 12:38:43,000 INFO django.request: GET /api/v1/users/ 200 OK [192.168.1.98]
+2025-03-27 12:44:49,000 INFO django.request: GET /admin/dashboard/ 200 OK [192.168.1.77]
+2025-03-27 12:47:46,000 WARNING django.security: IntegrityError: duplicate key value violates unique constraint
+2025-03-27 12:19:42,000 ERROR django.request: Internal Server Error: /api/v1/products/ [192.168.1.99] - SuspiciousOperation: Invalid HTTP_HOST header
+2025-03-27 12:28:34,000 WARNING django.security: OSError: No space left on device
+2025-03-27 12:40:30,000 CRITICAL django.core.management: ConnectionError: Failed to connect to payment gateway
+2025-03-27 12:22:27,000 INFO django.request: GET /api/v1/support/ 204 OK [192.168.1.26]
+2025-03-27 12:45:09,000 DEBUG django.db.backends: (0.48) SELECT * FROM 'shipping' WHERE id = 17;
+2025-03-27 12:46:28,000 WARNING django.security: OSError: No space left on device
+2025-03-27 12:36:13,000 INFO django.request: GET /admin/dashboard/ 204 OK [192.168.1.13]
+2025-03-27 12:12:30,000 DEBUG django.db.backends: (0.12) SELECT * FROM 'login' WHERE id = 49;
+2025-03-27 12:39:06,000 INFO django.request: GET /admin/dashboard/ 201 OK [192.168.1.40]
+2025-03-27 12:00:36,000 INFO django.request: GET /api/v1/support/ 201 OK [192.168.1.34]
+2025-03-27 12:17:20,000 WARNING django.security: DatabaseError: Deadlock detected
+2025-03-27 12:09:45,000 INFO django.request: GET /api/v1/products/ 200 OK [192.168.1.29]
+2025-03-27 12:01:21,000 WARNING django.security: PermissionDenied: User does not have permission
