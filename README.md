@@ -1,16 +1,14 @@
 <!-- Pytest --><a href="https://docs.pytest.org/en/stable/contents.html/"><img src="./images/pytest.svg"></a>
 
-# Log Analysis CLI Tool 📊
-🔧 CLI-приложение для анализа логов Django-приложений. Позволяет формировать отчеты о состоянии API-ручек по уровням логирования (DEBUG, INFO, WARNING, ERROR, CRITICAL).
 
 <div align="center">
   <a href="https://github.com/meteopavel/Log_Analysis_CLI_Tool">
     <img src="./images/logo.svg" alt="Logo" width="250" height="auto">
   </a>
-  <h3 align="center">Log Analysis CLI Tool 📊</h3>
+  <h1 align="center">Log Analysis CLI Tool 📊</h1>
   <p align="center">
     🔧 CLI-приложение для анализа логов Django-приложений. Позволяет формировать отчеты о состоянии API-ручек по уровням логирования (DEBUG, INFO, WARNING, ERROR, CRITICAL).
-    <br />
+    <br /><br />
     <a href="https://meteopavel.space">Сайт разработчика</a>
     ·
     <a href="https://github.com/meteopavel/Log_Analysis_CLI_Tool/issues/new?labels=bug">Сообщить об ошибке</a>
@@ -19,7 +17,6 @@
   </p>
 </div>
 
-CLI-приложение для анализа логов Django-приложений. Позволяет формировать отчеты о состоянии API-ручек по уровням логирования (DEBUG, INFO, WARNING, ERROR, CRITICAL).
 
 ## Особенности ✨
 
