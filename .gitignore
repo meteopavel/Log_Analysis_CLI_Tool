@@ -10,11 +10,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Логи и базы данных
-logs/
-*.log
-*.sqlite3
-
 # IDE и редакторы
 .vscode/
 .idea/
