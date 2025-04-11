@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/meteopavel/Log_Analysis_CLI_Tool">
-    <img src="./images/logo.svg" alt="Logo" width="300" height="auto">
+    <img src="./images/logo.svg" alt="Logo" width="250" height="auto">
   </a>
   <h3 align="center">Log Analysis CLI Tool 📊</h3>
   <p align="center">
