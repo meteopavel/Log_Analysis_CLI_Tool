@@ -16,3 +16,11 @@ CLI-приложение для анализа логов Django-приложе�
    git clone https://github.com/meteopavel/Log_Analysis_CLI_Tool.git
    cd Log_Analysis_CLI_Tool
    ```
+2. Установите виртуальное окружение:
+   ```
+   # Для Linux/MacOS
+   python3 -m venv venv
+
+   # Для Windows
+   python -m venv venv
+   ```   
