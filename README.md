@@ -1,5 +1,8 @@
 <!-- Pytest --><a href="https://docs.pytest.org/en/stable/contents.html/"><img src="./images/pytest.svg"></a>
 
+# Log Analysis CLI Tool 📊
+🔧 CLI-приложение для анализа логов Django-приложений. Позволяет формировать отчеты о состоянии API-ручек по уровням логирования (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+
 <div align="center">
   <a href="https://github.com/meteopavel/Log_Analysis_CLI_Tool">
     <img src="./images/logo.svg" alt="Logo" width="250" height="auto">
