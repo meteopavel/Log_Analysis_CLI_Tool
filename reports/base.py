@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class BaseLogParser(ABC):
+    def __init__(self, report_type: str):
+        self.report_type = report_type
+
     @abstractmethod
     def parse_file(self, file_path: str) -> dict[str, dict[str, int]]:
         """
@@ -30,6 +33,14 @@ class BaseReportCalculator(ABC):
         """
         pass
 
+    @abstractmethod
+    def calculate_key_width(self, data: dict[str, dict[str, int]]) -> int:
+        """
+        Вычисляет максимальную длину ключей в данных.
+        Добавляем запас в 5 символов для лучшего визуального восприятия.
+        """
+        pass
+
 
 class BaseReportFormatter(ABC):
     @abstractmethod
@@ -41,6 +52,9 @@ class BaseReportFormatter(ABC):
 
 
 class BaseReport(ABC):
+    def __init__(self, report_type: str):
+        self.report_type = report_type
+
     @abstractmethod
     def process_file(self, file_path: str) -> dict:
         """
