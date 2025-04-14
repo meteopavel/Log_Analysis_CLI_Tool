@@ -7,8 +7,7 @@ from utils.file_validator import validate_files_exist
 def parse_args():
     parser = argparse.ArgumentParser(description='Log Analyzer')
     parser.add_argument('files', nargs='+', help='Paths to log files')
-    parser.add_argument('--report', required=True,
-                        help='Report type to generate')
+    parser.add_argument('--report', required=True, help='Report type')
     return parser.parse_args()
 
 
