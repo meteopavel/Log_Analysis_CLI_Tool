@@ -1,13 +1,30 @@
 import re
 
 REPORT_TYPES = {
-    'handlers': 'reports.handlers.HandlersReport',
+    'handlers': 'reports.registry.HandlersReport',
+    'management': 'reports.registry.ManagementReport',
+    'backends': 'reports.registry.BackendsReport',
 }
-HANDLERS_LOG_PATTERN = re.compile(
-    r'^(?P<timestamp>.+?)\s+'
-    r'(?P<level>\w+)\s+'
-    r'django\.request:\s+'
-    r'.*?(?P<handler>/[^\s\]]+)'
-)
+
+LOG_PATTERNS = {
+    'handlers': re.compile(
+        r'^(?P<timestamp>.+?)\s+'
+        r'(?P<level>\w+)\s+'
+        r'django\.request:\s+'
+        r'.*?(?P<handler>/[^\s\]]+)'
+    ),
+    'management': re.compile(
+        r'^(?P<timestamp>.+?)\s+'
+        r'(?P<level>\w+)\s+'
+        r'django\.core\.management:\s+'
+        r'.*?(?P<message>.+)'
+    ),
+    'backends': re.compile(
+        r'^(?P<timestamp>.+?)\s+'
+        r'(?P<level>\w+)\s+'
+        r'django\.db\.backends:\s+'
+        r'.*?(?P<query>.+)'
+    ),
+}
+
 LOG_LEVELS = ['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']
-ROW_FORMAT = '{:<25}' + ' '.join('{:<10}' for _ in LOG_LEVELS)
