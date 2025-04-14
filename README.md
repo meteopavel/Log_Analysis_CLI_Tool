@@ -67,7 +67,11 @@
 
 ## Использование 🚀
    ```bash
+   # Для Linux/MacOS
    python3 main.py logs/app1.log logs/app2.log logs/app3.log --report handlers
+
+   # Для Windows
+   python main.py logs/app1.log logs/app2.log logs/app3.log --report handlers
    ```
    ### Аргументы командной строки:
    - `logs/app1.log logs/app2.log`: Пути к файлам логов (можно указать несколько файлов).
