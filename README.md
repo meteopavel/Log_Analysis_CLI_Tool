@@ -114,10 +114,6 @@
       # class BackendsReport(GenericReport):
       #     def __init__(self):
       #         super().__init__(report_type='backends', header_name='QUERY')
-
-      # class NewReport(GenericReport):
-      #     def __init__(self):
-      #         super().__init__(report_type='new_report', header_name='NEW')
    ```
 2. Зарегистрируйте новый тип в конфигурации
    Обновите словарь REPORT_TYPES в файле config/constants.py:
