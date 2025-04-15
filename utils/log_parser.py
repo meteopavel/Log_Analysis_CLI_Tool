@@ -15,6 +15,7 @@ def parse_log_line(
     match = pattern.match(line)
     if not match:
         return None, None
+    
 
     groups = match.groupdict()
     level = groups.get('level')
