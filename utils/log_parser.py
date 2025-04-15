@@ -17,7 +17,11 @@ def parse_log_line(
         return None, None
 
     groups = match.groupdict()
-    level = groups.get('level').upper()
+    level = groups.get('level')
+    if level is None:
+        return None, None
+    level = level.upper()
+
     info_groups = [key for key in groups.keys()
                    if key not in ('timestamp', 'level')]
     info = next((groups[key] for key in info_groups if groups[key]), None)
